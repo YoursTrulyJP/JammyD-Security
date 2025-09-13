@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "text": "Your bank emails you saying 'URGENT: Your account is locked! Click here to verify now.'",
+    "correct": "phish",
+    "explanation": "Legit banks rarely ask you to click urgent links — check official site directly."
+  },
+  {
+    "id": 2,
+    "text": "Your friend messages you on WhatsApp with a link to funny cat videos hosted on YouTube.",
+    "correct": "safe",
+    "explanation": "This is a normal safe link from a friend, nothing suspicious here."
+  },
+  {
+    "id": 3,
+    "text": "You receive an email with poor grammar asking for your password to 'avoid account suspension.'",
+    "correct": "phish",
+    "explanation": "Never share passwords via email — this is a phishing classic."
+  },
+  {
+    "id": 4,
+    "text": "An online shop sends you a receipt for something you never bought, with a link to 'cancel order.'",
+    "correct": "phish",
+    "explanation": "Fake receipts try to scare you into clicking malicious links."
+  },
+  {
+    "id": 5,
+    "text": "Your company IT sends a scheduled notice: 'Servers will be down for maintenance on Saturday.'",
+    "correct": "safe",
+    "explanation": "Routine notifications are fine — no urgent clicks required."
+  },
+  {
+    "id": 6,
+    "text": "An email claims you won a lottery you never entered and asks for personal info to claim prize.",
+    "correct": "phish",
+    "explanation": "Classic scam — if you didn’t enter, you didn’t win."
+  },
+  {
+    "id": 7,
+    "text": "Your password manager app notifies you of a data breach and recommends you change your password.",
+    "correct": "safe",
+    "explanation": "Legitimate security apps do send these alerts — take action."
+  },
+  {
+    "id": 8,
+    "text": "An SMS says: 'Your package is held at customs. Pay $5 fee here: shady-link.biz'.",
+    "correct": "phish",
+    "explanation": "Delivery companies use official sites, not random short links."
+  },
+  {
+    "id": 9,
+    "text": "You get an email from GitHub about a login from a new device with location details.",
+    "correct": "safe",
+    "explanation": "This is a real security notification, but double-check the sender domain."
+  },
+  {
+    "id": 10,
+    "text": "A 'tech support' popup tells you your computer is infected and shows a phone number to call.",
+    "correct": "phish",
+    "explanation": "Fake support scams try to scare you — never call those numbers."
+  }
+]
